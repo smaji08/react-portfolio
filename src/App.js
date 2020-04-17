@@ -23,7 +23,7 @@ function App() {
                 
                 <Content>
                     <Switch>
-                        <Route exact path="/react-portfolio" component={Landingpage} />
+                        <Route exact path="/" component={Landingpage} />
                         <Route path="/aboutme" component={AboutMe} />
                         <Route path="/portfolio" component={Portfolio} />
                         <Route path="/contact" component={Contact} />
