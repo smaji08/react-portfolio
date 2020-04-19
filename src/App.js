@@ -36,10 +36,10 @@ function App() {
                     </Switch>
                 </Content>
                 
-                <Footer size="mini" className="footer-color">
-                    <FooterSection type="left">
-                        <FooterLinkList>
-                            copyright@2020
+                <Footer size="mini" className="footer-color" >
+                    <FooterSection type="center">
+                        <FooterLinkList style={{textAlign: "center", color: "black"}}>
+                            &copy;Copyright{new Date().getFullYear()} 
                         </FooterLinkList>
                     </FooterSection>
                 </Footer>

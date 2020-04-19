@@ -5,7 +5,7 @@ class AboutMe extends Component {
     render(){
       return (
         <div className="contact-body">
-            <Grid className="contact-grid">
+            <Grid className="about-grid">
                 <Cell col={12}>
                    <h2>About Me</h2>
                    <hr/>
