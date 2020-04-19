@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-const pic = require("../assets/images/profile_img.jpg");
-const resume = require ("../assets/docs/Resume.pdf");
+import profilePic from "../assets/images/profile_img.jpg";
+import resume from "../assets/docs/Resume.pdf";
 
 class LandingPage extends Component {
   render() {
@@ -10,7 +10,7 @@ class LandingPage extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src={pic}
+              src={profilePic}
               alt="avatar"
               className="avatar-img"
               />
