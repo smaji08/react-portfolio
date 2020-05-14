@@ -7,8 +7,8 @@ let portfolioData = {
       tech:
         "MERN, react-simple-chatbot,3rd party API, Stripe Payment gateway, and Heroku",
       imageUrl: require("./assets/images/MyGarage.png"),
-      gitLink: "https://github.com/smaji08/CookOut",
-      deployedLink: "https://smaji08.github.io/CookOut/",
+      gitLink: "https://github.com/smaji08/mygarage-kaera",
+      deployedLink: "https://lit-scrubland-58683.herokuapp.com/mygarage-kaera",
     },
     {
       name: "CookOut",
